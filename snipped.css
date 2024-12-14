@@ -226,6 +226,18 @@ input {
     width: 1240px;
 } 
 
+.Card5_card5__Siz { 
+    color: #fff; 
+    display: flex; 
+    flex-direction: row; 
+    height: 520px; 
+    justify-content: space-between; 
+    margin: 60px auto 0; 
+    padding-bottom: 36px; 
+    position: relative; 
+    width: 1240px;
+} 
+
 .Card5_card5__YupmX:before { 
     background-color: rgba(0,0,0,.15); 
     bottom: 0; 
@@ -460,6 +472,17 @@ img {
     left: 0; 
     object-fit: cover; 
     position: absolute; 
+    right: 0; 
+    top: 0; 
+    z-index: -2;
+} 
+
+.Card5_card5__Siz .Card5_introImg__Siz  { 
+    width: 600px;
+    bottom: 0; 
+    left: 0; 
+    object-fit: contain;
+    position: relative; 
     right: 0; 
     top: 0; 
     z-index: -2;
