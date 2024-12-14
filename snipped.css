@@ -839,6 +839,13 @@ h2 {
     width: 16px;
 } 
 
+.Card5_options__b\+uK5 {
+    align-items: center;
+    display: flex
+;
+    margin-top: 28px;
+}
+
 .Card5_options__b\+uK5 .Card5_rate__1KqqQ::after { 
     background-color: #eee; 
     content: ""; 
