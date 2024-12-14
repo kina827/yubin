@@ -230,7 +230,7 @@ input {
     color: #fff; 
     display: flex; 
     flex-direction: row; 
-    height: 520px; 
+    height: 420px; 
     justify-content: space-around; 
     margin: 60px auto 0; 
     position: relative; 
