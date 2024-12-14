@@ -233,7 +233,6 @@ input {
     height: 520px; 
     justify-content: space-between; 
     margin: 60px auto 0; 
-    padding-bottom: 36px; 
     position: relative; 
     width: 1240px;
 } 
@@ -2605,7 +2604,7 @@ input:disabled {
     width: 15px;
 } 
 
-.SortList_sortList__NHJnx .SortList_sort_tooltip__BAqJ-::before { 
+.SortList_sort_tooltip__BAqJ-::before { 
     background-image: url(./images/pc_spimage.png); 
     background-position: -207px -58px; 
     background-repeat: no-repeat; 
@@ -4077,3 +4076,160 @@ em {
 #style-87mks.style-87mks {  
    margin-left: -20px;  
 }  
+@font-face { 
+    font-display:swap;
+    font-family:Pretendard;
+    font-weight:700;
+    src:local("Pretendard Bold"),url(https://img.lfmall.co.kr/file/WAS/apps/2023/pfront/font/pretendard/Pretendard-Bold.woff2) format("woff2");
+  } 
+  @font-face { 
+    font-display:swap;
+    font-family:Pretendard;
+    font-weight:600;
+    src:local("Pretendard SemiBold"),url(https://img.lfmall.co.kr/file/WAS/apps/2023/pfront/font/pretendard/Pretendard-SemiBold.woff2) format("woff2");
+  } 
+  @font-face { 
+    font-display:swap;
+    font-family:Pretendard;
+    font-weight:500;
+    src:local("Pretendard Medium"),url(https://img.lfmall.co.kr/file/WAS/apps/2023/pfront/font/pretendard/Pretendard-Medium.woff2) format("woff2");
+  } 
+  @font-face { 
+    font-display:swap;
+    font-family:Pretendard;
+    font-weight:400;
+    src:local("Pretendard Regular"),url(https://img.lfmall.co.kr/file/WAS/apps/2023/pfront/font/pretendard/Pretendard-Regular.woff2) format("woff2");
+  } 
+  @font-face { 
+    font-display:swap;
+    font-family:Pretendard;
+    font-weight:300;
+    src:local("Pretendard Light"),url(https://img.lfmall.co.kr/file/WAS/apps/2023/pfront/font/pretendard/Pretendard-Light.woff2) format("woff2");
+  } 
+    body {  
+      font-family:Pretendard,Malgun Gothic,SF Pro,AppleSDGothicNeo,HelveticaNeue,helvetica,sans-serif;
+      font-weight:400;
+      line-height:18px;
+    }  
+  * { 
+      box-sizing: border-box;
+  } 
+  
+  div { 
+      margin: 0; 
+      outline: none; 
+      padding: 0;
+  } 
+  
+  body { 
+      font-family: Pretendard,Malgun Gothic,SF Pro,AppleSDGothicNeo,HelveticaNeue,helvetica,sans-serif; 
+      font-weight: 400; 
+      line-height: 18px;
+  } 
+  
+  body { 
+      margin: 0; 
+      outline: none; 
+      padding: 0;
+  } 
+  
+  body { 
+      height: 100%; 
+      width: 100%;
+  } 
+  
+  body { 
+      -webkit-text-size-adjust: none; 
+      min-width: 1280px;
+  } 
+  
+  html { 
+      height: 100%; 
+      width: 100%;
+  } 
+  
+  :root { 
+      --toastify-color-info: #3498db; 
+      --toastify-color-success: #07bc0c; 
+      --toastify-color-warning: #f1c40f; 
+      --toastify-color-error: #e74c3c; 
+      --toastify-icon-color-info: var(--toastify-color-info); 
+      --toastify-icon-color-success: var(--toastify-color-success); 
+      --toastify-icon-color-warning: var(--toastify-color-warning); 
+      --toastify-icon-color-error: var(--toastify-color-error); 
+      --toastify-color-progress-info: var(--toastify-color-info); 
+      --toastify-color-progress-success: var(--toastify-color-success); 
+      --toastify-color-progress-warning: var(--toastify-color-warning); 
+      --toastify-color-progress-error: var(--toastify-color-error);
+  } 
+  
+  .LfPopover_pcPopoverWrap__FY2bd { 
+      background: #fff; 
+      border: 1px solid #000; 
+      position: absolute; 
+      z-index: 99;
+  } 
+  
+  .SortList_tooltip__Woe7d  { 
+      top: 35px;
+  } 
+  
+  :selection { 
+      background: rgba(0,0,0,.1); 
+      text-shadow: none;
+  } 
+  
+  .LfPopover_pcPopoverWrap__FY2bd .LfPopover_pcContainer__8Xzs8  { 
+      background: #fff; 
+      box-sizing: border-box; 
+      padding: 30px 30px 40px;
+  } 
+  
+  .LfPopover_pcPopoverWrap__FY2bd .LfPopover_pcContainer__8Xzs8.LfPopover_hasClose__wEi\+2 { 
+      padding: 15px 47px 15px 15px;
+  } 
+  
+  .LfPopover_pcPopoverWrap__FY2bd .LfPopover_pcContainer__8Xzs8 .LfPopover_modalContent__6Hd9V  { 
+      font-size: 13px; 
+      letter-spacing: -.3px; 
+      line-height: 17px;
+  } 
+  
+  button { 
+      font-family: Pretendard,Malgun Gothic,SF Pro,AppleSDGothicNeo,HelveticaNeue,helvetica,sans-serif; 
+      font-weight: 400; 
+      line-height: 18px;
+  } 
+  
+  button { 
+      margin: 0; 
+      outline: none; 
+      padding: 0;
+  } 
+  
+  button { 
+      background-color: transparent; 
+      border: 0; 
+      cursor: pointer; 
+      overflow: visible;
+  } 
+  
+  button { 
+      color: #000;
+  } 
+  
+  .LfPopover_btnClose__H-F4b  { 
+      background-image: url(https://img.lfmall.co.kr/file/WAS/apps/2023/sp_common.png?v=20240109v2); 
+      background-position: -8px -8px; 
+      background-repeat: no-repeat; 
+      background-size: 340px auto; 
+      font-size: 0; 
+      height: 17px; 
+      position: absolute; 
+      right: 15px; 
+      top: 15px; 
+      width: 17px;
+  } 
+  
+  
+  
